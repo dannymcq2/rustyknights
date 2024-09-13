@@ -49,7 +49,7 @@ section p {
     line-height: 1.6;
 }
 
-.beat {
+.demo, .gallery-item {
     border: 1px solid #ddd;
     padding: 15px;
     margin: 20px 0;
