@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rusty Knights - Beat Previews</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>The Rusty Knights</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="beats.html">Previews</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="beat-previews">
+            <h2>Check Out Our Latest Beats</h2>
+            <div class="beat">
+                <h3>Beat Title 1</h3>
+                <audio controls>
+                    <source src="assets/audio/beat1.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p>A groovy, uplifting beat perfect for any occasion.</p>
+                <button onclick="buyBeat('Beat Title 1')">Buy Now</button>
+            </div>
+            <div class="beat">
+                <h3>Beat Title 2</h3>
+                <audio controls>
+                    <source src="assets/audio/beat2.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p>Soulful and smooth, perfect for chill vibes.</p>
+                <button onclick="buyBeat('Beat Title 2')">Buy Now</button>
+            </div>
+        </section>
+    </main>
+    <footer id="contact">
+        <p>Contact: <a href="mailto:2dan@example.com">2dan@example.com</a></p>
+        <p>© 2024 Rusty Knights</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
